@@ -1,0 +1,22 @@
+h1, h2 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.text-bronze {
+    color: #c79372;
+}
+
+#card-hero {
+    background-image:  url('https://images.unsplash.com/photo-1571564756948-51c10b7f058e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'); 
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+#card-hero__logo-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+} 
